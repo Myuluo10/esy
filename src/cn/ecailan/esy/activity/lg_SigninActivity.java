@@ -66,7 +66,9 @@ public class lg_SigninActivity extends BaseActivity implements OnClickListener, 
 	protected void onCreate(Bundle savedInstanceState) {		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.lg_signin);
-		
+
+
+        
 		back = (ImageView) findViewById(R.id.login_back);
 		login = (Button) findViewById(R.id.login_login);
 		userName = (EditText) findViewById(R.id.login_name);
